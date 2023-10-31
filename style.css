@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat';
+    overflow-y: scroll;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.section-container {
+    background-image: url('./assets/wave_bg.svg');
+    height: 50vh;
+
+}
+
+.section-content {
+    width: 48%;
+    margin: auto;
+    /* Screenshot 2023-10-08 at 6.15 1 */
+
+
+
+
+}
+
+.section-hero {
+    /* position: absolute; */
+    width: 820px;
+    height: 442px;
+    /* left: 455px; */
+    /* top: 190px; */
+
+    background: url('./assets/section-hero.png');
+    border-radius: 15px;
+}
+
+.section-2 {
+
+    width: 48%;
+    margin: auto;
+
+}
+
+.how-it-works {
+    background-image: url('./assets/wave.svg');
+
+
+
+}
