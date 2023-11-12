@@ -38,8 +38,8 @@ footer {
     background: url('./assets/section-hero.png');
     border-radius: 15px;
     background-repeat: no-repeat;
+    background-position: center;
 }
-
 
 .how-it-works {
     background-image: url('./assets/wave.svg');
