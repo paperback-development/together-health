@@ -1,6 +1,8 @@
 body {
     font-family: 'Montserrat';
     overflow-y: scroll;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul li {
@@ -9,29 +11,43 @@ ul li {
 }
 
 
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    /* Adjust the padding as needed */
+    text-align: center;
+}
+
 .section-container {
     background-image: url('./assets/wave_bg.svg');
-    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    /* background- */
 }
 
 .section-content {
-    width: 48%;
+    /* width: 49%; */
     margin: auto;
 }
 
 .section-hero {
-    width: 820px;
     height: 442px;
     background: url('./assets/section-hero.png');
     border-radius: 15px;
+    background-repeat: no-repeat;
 }
 
-.section-2 {
-    width: 48%;
-    margin: auto;
-}
 
 .how-it-works {
     background-image: url('./assets/wave.svg');
+}
+
+.btn-primary {
+    border-color: #84A5D7 !important;
+    background-color: #84A5D7 !important;
+    color: "white" !important;
+    width: 100%
 }
