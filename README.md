@@ -21,7 +21,7 @@ npm install -g http-server
 ### Clone the Repository
 Clone the repository to your local machine using the following command:
 ```
-git clone [insert-git-command]
+git clone git@github.com:paperback-development/together-health.git
 ```
 
 ### Navigate to Project Directory
